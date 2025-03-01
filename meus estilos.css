@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0F0F0F;
+  }
+  
+.logo{
+    background-image: url(img/bloodrivericon.png);
+    background-size: cover;
+    z-index: 1000;
+    padding: 10px;
+}
+
+.noticias-butao, .reviews-butao{
+    background-image: url(img/inicio-botao.png);
+    background-size: cover;
+}
+
+.sobre-o-autor-butao{
+    background-image: url(img/sobre-o-autor-botao.png);
+    background-size: cover;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    gap: 70vw;
+}
+
+.container-menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+main{
+    font-family: 'Roboto' bold;
+    background-color: #272727;
+}
+
+article a{
+    text-decoration: none;
+    color: #fff;
+}
+
+article a img{
+    width: 324px;
+    height: 208px;
+    border-radius: 5px;
+}
+
+.container-artigos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10vw;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.titulo{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+}
+
+footer{
+    background-color: #0F0F0F;
+    color: #fff;
+    text-align: center;
+    padding: 2dvw;
+    bottom: 0;
+    width: 100vw;
+}
