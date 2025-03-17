@@ -71,13 +71,23 @@ article a{
     color: #000000;
 }
 
-article {
+.artigo {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-article:hover {
+.artigo:hover {
     transform: scale(1.05); /* Aumenta o tamanho em 5% */
 }
+
+.review {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review:hover {
+    transform: scale(1.05); /* Aumenta o tamanho em 5% */
+}
+
+
 
 article a img{
     width: 340px;
@@ -130,6 +140,54 @@ article a img{
     font-weight: bold;
     width: 500px;
 }
+
+/* Notícias */
+
+.artigo-noticias a {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 0px;
+    padding: 15px;
+    max-width: 60%;
+    margin-left: 10px;
+  }
+  
+.artigo-noticias a img {
+    width: 328px;
+    height: 205px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+  
+.artigo-noticias a h2 {
+    width: 70%;
+    font-size: 20px;
+}
+
+.artigo-noticias{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.artigo-noticias:hover {
+    transform: scale(1.01); /* Aumenta o tamanho em 5% */
+}
+
+/* Reviews */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Rodapé */
 
 footer{
     background-color: #BE5985;
