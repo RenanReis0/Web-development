@@ -173,18 +173,38 @@ article a img{
     transform: scale(1.01); /* Aumenta o tamanho em 5% */
 }
 
-/* Reviews */
+/* Matéria */
 
+.disc-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+}
 
+.container-materia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 10px auto;
+    max-width: 60%;
+    
+}   
 
+.container-materia img{
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+    margin-left: 15vw;
+}
 
+.container-materia p, .disc-list{
+    font-weight: normal;
+}
 
-
-
-
-
-
-
+.container-materia h2, p{
+    margin-top: 20px;
+    display: block;
+}
 
 
 /* Rodapé */
