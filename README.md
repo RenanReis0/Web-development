@@ -6,11 +6,6 @@ Bem-vindo ao repositório do projeto **Multiverso News**. Este é meu primeiro p
 
 Multiverso News é um site que fornece notícias sobre o mundo dos games. O objetivo deste projeto é aprender e praticar habilidades de desenvolvimento web.
 
-## Composição do Repositório
-
-- **HTML**: 87.4%
-- **CSS**: 12.6%
-
 ## Estrutura do Projeto
 
 - `index.html`: Página principal do site.
