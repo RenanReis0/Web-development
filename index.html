@@ -11,7 +11,7 @@
 
 </head>
 <body>
-    <header>
+    <header role="banner">
         <div class="container-header">
         <div class="container-logo">
             <a href="index.html">
@@ -22,18 +22,19 @@
         </div>
         <nav>
             <div class="container-menu">
-                <ul>
+                <ul style="none">
                     <a href="noticias.html" class="noticias-butao">Notícias</a>
                     <a href="reviews.html" class="reviews-butao">Reviews</a>
                     <a href="https://github.com/RenanReis0" class="sobre-o-autor-butao">Sobre o Autor</a>
+                    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
                 </ul>
             </div>
         </nav>
         </div>
     </header> 
-    <main>
+    <main role="main" id="main-content">
         <div>
-            <h2 class="ultimas-noticias">Últimas notícias</h2>
+            <h2 class="ultimas-noticias" tabindex="0">Últimas notícias</h2>
         </div>
             <div class="container-barra">
                     <p>3</p>
@@ -96,7 +97,7 @@
                 </a>
             </article>
             <article class="artigo">
-                <a href="indiajones.html">
+                <a href="indiajones.html" aria-label="Link para a página de notícias do jogo India Jones e o grande círculo">
                     <img src="img/india-jones-image.jpg" class="india-jones-image-index" alt="Imagem de divulgação do jogo India Jones e o grande círculo>
                         <div class="titulo-e-descricao">
                             <h2 class="titulo">The Last of Us: Part II é o jogo mais vendido da franquia The Last of Us</h2>
@@ -139,7 +140,7 @@
             </div>
         </div>
     </main>            
-    <footer>
+    <footer role="contentinfo">
         <p>&copy; Site Geek de notícias. Todos os direitos reservados.</p>
     </footer>
 </body>
